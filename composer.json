@@ -1,0 +1,10 @@
+{
+    "name": "payeye/woocommerce",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Payeye\\Woocommerce\\": "Src/"
+        }
+    },
+    "require": {}
+}
