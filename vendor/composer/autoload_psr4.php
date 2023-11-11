@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Payeye\\Woocommerce\\' => array($baseDir . '/inc'),
+    'Payeye\\Woocommerce\\' => array($baseDir . '/Src'),
 );

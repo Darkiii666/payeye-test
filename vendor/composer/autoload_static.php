@@ -16,7 +16,7 @@ class ComposerStaticInitfbc2c60b4ec5b54e6742547104abbc0b
     public static $prefixDirsPsr4 = array (
         'Payeye\\Woocommerce\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/inc',
+            0 => __DIR__ . '/../..' . '/Src',
         ),
     );
 

@@ -12,6 +12,8 @@ License: GPLv2 or later
 Text Domain: payeye
 */
 
+use Payeye\Woocommerce\Helpers\Plugin;
+
 if (!defined('PAYEYE_PLUGIN_DIR')) {
     define('PAYEYE_PLUGIN_DIR', __DIR__);
 }
@@ -21,3 +23,5 @@ if (!defined('PAYEYE_PLUGIN_URI')) {
 }
 
 require_once PAYEYE_PLUGIN_DIR . "/vendor/autoload.php";
+
+new Plugin();
