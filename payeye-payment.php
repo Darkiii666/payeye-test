@@ -22,6 +22,10 @@ if (!defined('PAYEYE_PLUGIN_URI')) {
     define('PAYEYE_PLUGIN_URI', plugin_dir_url(__FILE__));
 }
 
+if (!defined('PAYEYE_PLUGIN_FILE')) {
+    define('PAYEYE_PLUGIN_FILE', __FILE__);
+}
+
 require_once PAYEYE_PLUGIN_DIR . "/vendor/autoload.php";
 
 new Plugin();
